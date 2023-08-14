@@ -3,68 +3,10 @@
 <html id="iubenda_policy" class="iubenda_fixed_policy" lang="pt-BR">
 <head>
 
-
-
   <title>Política de Privacidade do Vendly</title>
-
-  <meta http-equiv="Content-Language" content="pt-BR" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="date" content="2023-06-04">
-  <meta http-equiv="last-modified" content="2023-06-04">
-  <meta itemprop="name" content="Política de Privacidade do Vendly">
-  <meta itemprop="description" content="Este Aplicativo recolhe alguns Dados Pessoais dos Usuários." />
-  <meta itemprop="image" content="https://www.iubenda.com/seo/assets/default.png" />
-  <meta name="locale" content="pt-BR" />
-  <meta name="title" content="Este Aplicativo recolhe alguns Dados Pessoais dos Usuários." />
-  <meta name="description" content="Este Aplicativo recolhe alguns Dados Pessoais dos Usuários." />
-  <meta name="image" content="https://www.iubenda.com/seo/assets/default.png" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Política de Privacidade do Vendly" />
-  <meta name="twitter:description" content="Este Aplicativo recolhe alguns Dados Pessoais dos Usuários." />
-  <meta name="twitter:site" content="@iubenda" />
-  <meta name="twitter:image:src" content="https://www.iubenda.com/seo/assets/default.png" />
-  <meta property="og:title" content="Política de Privacidade do Vendly">
-  <meta property="og:description" content="Este Aplicativo recolhe alguns Dados Pessoais dos Usuários." />
-  <meta property="og:image" content="https://www.iubenda.com/seo/assets/default.png" />
-  <meta property="og:url" content="https://www.iubenda.com/privacy-policy/31142907/full-legal" />
-  <meta property="og:site_name" content="iubenda" />
-  <meta property="og:locale" content="pt-BR" />
-  <meta property="og:type" content="website" />
-  <meta property="fb:app_id" content="190131204371223" />
-  <link rel="canonical" href="https://www.iubenda.com/privacy-policy/31142907/full-legal" />
-
-  <meta name="viewport" content="width=device-width">
-
-  <meta content="noindex, follow" name="robots" />
-  <link href="politica-de-privacidade-style.css" media="screen" rel="stylesheet" />
-  <script src="/assets/privacy_policy-5ab388fa34e86efc89c42373f11361dd30a291977c159b99e4ae434397588648.js"></script>
 
 </head>
 <body>
-  <script type="text/javascript">
-    var $body = $('body');
-
-    // Add `all-collapsed` class to body in order to have all the expandable panel collapsed at page load and:
-    // 1. avoid the closing animation
-    // 2. allow all browsers (Firefox had issue) to scroll to an anchor if provided in the URL (e.g. #manage_cookies)
-    // 3. done via JS in order to not have panels collapsed for browsers with disabled JS
-    $body.addClass('all-collapsed')
-      .on('click', '.expand .expand-click', function () {
-        if ($body.hasClass('all-collapsed')) {
-          // Remove `all-collapsed` class from the body and set all panels collapsed so toggleClass behaves as expected
-          $('.expand-content').hide();
-          $('.expand').addClass('collapsed');
-          $body.removeClass('all-collapsed');
-        }
-
-        var $this = $(this);
-        $this.parents('.expand').toggleClass('collapsed').toggleClass('expanded')
-          .children('.expand-content').slideToggle('fast');
-        $this.parents('.expand-item').toggleClass('hover');
-        $this.children('.icon-17').toggleClass('icon-expand').toggleClass('icon-collapse');
-      });
-  </script>
-
   
   <div id="wbars_all">
     <div class="iub_container iub_base_container">
@@ -74,13 +16,12 @@
 
           
 <div class="iub_header">
-
     <h1>Política de Privacidade do <strong>Vendly</strong></h1>
-
-      <p>Este Aplicativo recolhe alguns Dados Pessoais dos Usuários.</p><br />
+    
+<p>Este Aplicativo recolhe alguns Dados Pessoais dos Usuários.</p><br />
         <p>Este documento contém <a href="#brazil_info" target="_self">uma seção dedicada a Usuários brasileiros e seus direitos de privacidade</a>.</p>
       <p>Este documento pode ser impresso para fins de consulta, através do comando imprimir nas configurações de seu navegador.</p>
-</div> <!-- /header -->
+</div> 
 
 
  
@@ -551,62 +492,6 @@ Em qualquer caso, caso seja impossível, faremos questão de comunicar a você o
     </div>
   </div>
 </div>
-
-
-          
-<div class="iub_footer">
-
-  <p>
-    Última atualização:  4 de junho de 2023
-  </p>
-
-  
-  <p>
-    A <a href="https://www.iubenda.com/en/privacy-and-cookie-policy-generator" title="iubenda - Gerador Política de Privacidade">iubenda</a> hospeda este conteúdo e apenas coleta <a href="//www.iubenda.com/privacy-policy/78216879">Dados Pessoais estritamente necessários</a> para o fornecimento do mesmo.
-  </p>
-
-
-</div> <!-- /footer -->
-
-<script type="text/javascript">
-  window.tryFunc = function(fName,args){
-    if(typeof window[fName]==='function'){
-      window[fName](args);
-    }else{
-      if(args){
-        /* default behaviour is link */
-        if(args.href){
-          /* default link is target='_blank' */
-          window.open(args.href)
-        }
-      }
-    }
-    return false; /* inhibit default behaviour */
-  }
-</script>
-
-
-      </div> <!-- /content -->
-    </div> <!-- /wbars -->
-
-
-  </div> <!-- /container base_container -->
-</div> <!-- /wbars_wrapper -->
-
-
-
-
-
-  <script type="text/javascript">
-    var privacyPolicy = new PrivacyPolicy({
-      id:2533905,
-      noBrand:true
-    })
-
-    $(document).ready(function() {
-      privacyPolicy.start();
-    });
-  </script>
 
 </body>
 </html>
