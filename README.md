@@ -1,1 +1,0 @@
-# vendly-privacy-policy
